@@ -1,0 +1,54 @@
+{
+  "name": "clement-portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Modern portfolio website for DevOps/Cloud Engineer built with Next.js and Tailwind CSS",
+  "author": "Sahaya Clement Vincent Martin",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "lint:fix": "next lint --fix",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@next/font": "^13.5.0",
+    "@types/node": "20.6.0",
+    "@types/react": "18.2.21",
+    "@types/react-dom": "18.2.7",
+    "clsx": "^2.0.0",
+    "framer-motion": "^10.16.4",
+    "lucide-react": "^0.276.0",
+    "next": "13.5.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "tailwind-merge": "^1.14.0",
+    "typescript": "5.2.2"
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.6",
+    "@tailwindcss/typography": "^0.5.10",
+    "@types/eslint": "^8.44.2",
+    "autoprefixer": "^10.4.15",
+    "eslint": "8.48.0",
+    "eslint-config-next": "13.5.0",
+    "postcss": "^8.4.29",
+    "prettier": "^3.0.3",
+    "prettier-plugin-tailwindcss": "^0.5.4",
+    "tailwindcss": "^3.3.3"
+  },
+  "engines": {
+    "node": ">=18.17.0",
+    "npm": ">=9.0.0"
+  },
+  "keywords": [
+    "portfolio",
+    "nextjs",
+    "tailwindcss",
+    "devops",
+    "cloud-engineer",
+    "typescript",
+    "react"
+  ]
+}
